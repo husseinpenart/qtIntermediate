@@ -1,0 +1,6 @@
+module qtIntermediate
+typeinfo appqtIntermediate.qmltypes
+prefer :/qt/qml/qtIntermediate/
+Main 1.0 Main.qml
+OtherQmlCallAction 1.0 OtherQmlCallAction.qml
+

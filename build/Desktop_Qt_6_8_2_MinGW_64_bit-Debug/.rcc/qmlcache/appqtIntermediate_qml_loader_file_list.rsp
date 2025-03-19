@@ -1,0 +1,6 @@
+--resource
+E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qmake_qtIntermediate.qrc
+--resource
+E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/appqtIntermediate_raw_qml_0.qrc
+/qt/qml/qtIntermediate/Main.qml
+/qt/qml/qtIntermediate/OtherQmlCallAction.qml

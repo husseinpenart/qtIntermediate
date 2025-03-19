@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 205,
+                        "errorMessage": "Cannot access value for name BWorker",
+                        "functionName": "onCompleted",
+                        "line": 4
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 4
+                    }
+                ],
+                "filepath": "E:/project/qtIntermediate/OtherQmlCallAction.qml"
+            }
+        ],
+        "moduleId": "qtIntermediate(appqtIntermediate)"
+    }
+]

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/qtIntermediate">
+    <file alias="qmldir">E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qtIntermediate/qmldir</file>
+  </qresource>
+</RCC>
+
