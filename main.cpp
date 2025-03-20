@@ -5,6 +5,7 @@
 #include <cppsignalsender.h>
 #include <movie.h>
 #include <propertywrapper.h>
+#include <qmljscaller.h>
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
     PropertyWrapper wrapper;
     wrapper.setLastname("Asadi");
     wrapper.setFirstname("Hussein");
-
+    qmlJSCaller caller;
     QQmlApplicationEngine engine;
     //calling the header which we made
     engine.rootContext()->setContextProperty("BWorker" , &cppWorker);
@@ -29,6 +30,8 @@ int main(int argc, char *argv[])
     // engine.rootContext()->setContextProperty("lastname" , QVariant::fromValue(lastname));
     // engine.rootContext()->setContextProperty("firstname" , QVariant::fromValue(firstname));
     engine.rootContext()->setContextObject(&wrapper);
+    engine.rootContext()->setContextProperty("QmlJsCaller",&caller);
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
@@ -36,6 +39,12 @@ int main(int argc, char *argv[])
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.loadFromModule("qtIntermediate", "Main");
-
+     // this will create list of root objects for js
+    auto rootObjects  = engine.rootObjects();
+    if (engine.rootObjects().isEmpty()){
+        return -1;
+    }else{
+        caller.setQmlRoostObject(rootObjects[0]);
+    }
     return app.exec();
 }

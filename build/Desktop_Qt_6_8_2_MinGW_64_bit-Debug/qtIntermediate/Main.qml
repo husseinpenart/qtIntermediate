@@ -4,36 +4,18 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("context object")
-    Rectangle {
-        id : mRect1
-        width: mText1.implicitWidth + 20
-        height: mText1.implicitHeight + 20
-        color: "beige"
-        border.color: "yellowgreen"
+    title: qsTr("js cpp qml integration in thi sides")
 
-        Text {
-            id: mText1
-            anchors.centerIn: parent
-            text: lastname
-            font.pointSize: 20
-        }
+    function qmlJSFunction(param){
+        console.log(" QML Talking, C++ called me with parameter : "+ param + "returning back something")
+        return "This is QML, over to you C++. Thanks for the Call."
     }
 
-    Rectangle {
-        id : mRect2
-        anchors.left: mRect1.right
-        anchors.leftMargin: 5
-        width: mText2.implicitWidth + 20
-        height: mText2.implicitHeight + 20
-        color: "beige"
-        border.color: "yellowgreen"
-
-        Text {
-            id: mText2
-            anchors.centerIn: parent
-            text: firstname
-            font.pointSize: 20
+    Button {
+        id : mButton
+        text : "Call QML function from C++"
+        onClicked: {
+            QmlJsCaller.cppMethod("QML Calling... ")
         }
     }
 }

@@ -4,76 +4,20 @@
             {
                 "entries": [
                     {
-                        "codegenSuccessfull": true,
-                        "column": 16,
-                        "durationMicroseconds": 510,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 10
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 260,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 11
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "qmlJSFunction",
+                        "line": 9
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 19,
-                        "durationMicroseconds": 422,
-                        "errorMessage": "Cannot access value for name lastname",
-                        "functionName": "text",
-                        "line": 18
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 126,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
                         "line": 17
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 16,
-                        "durationMicroseconds": 250,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 27
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 250,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 28
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 214,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 25
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 19,
-                        "durationMicroseconds": 369,
-                        "errorMessage": "Cannot access value for name firstname",
-                        "functionName": "text",
-                        "line": 35
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 120,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 34
                     }
                 ],
                 "filepath": "E:/project/qtIntermediate/Main.qml"

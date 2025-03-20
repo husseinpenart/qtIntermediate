@@ -6,6 +6,8 @@
     <file alias="connection.qml">E:/project/qtIntermediate/connection.qml</file>
     <file alias="signalSender.qml">E:/project/qtIntermediate/signalSender.qml</file>
     <file alias="cppmapping.qml">E:/project/qtIntermediate/cppmapping.qml</file>
+    <file alias="contextObject.qml">E:/project/qtIntermediate/contextObject.qml</file>
+    <file alias="jsQmlCaller.qml">E:/project/qtIntermediate/jsQmlCaller.qml</file>
   </qresource>
 </RCC>
 

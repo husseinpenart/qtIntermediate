@@ -1,0 +1,84 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 356,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 194,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 273,
+                        "errorMessage": "Cannot access value for name lastname",
+                        "functionName": "text",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 165,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 248,
+                        "errorMessage": "Cannot access value for name firstname",
+                        "functionName": "text",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 30
+                    }
+                ],
+                "filepath": "E:/project/qtIntermediate/contextObject.qml"
+            }
+        ],
+        "moduleId": "qtIntermediate(appqtIntermediate)"
+    }
+]

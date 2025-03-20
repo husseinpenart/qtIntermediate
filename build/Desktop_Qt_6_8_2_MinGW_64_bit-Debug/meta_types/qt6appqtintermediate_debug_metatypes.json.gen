@@ -240,5 +240,37 @@
         ],
         "inputFile": "propertywrapper.h",
         "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "qmlJSCaller",
+                "lineNumber": 6,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "paramters",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "cppMethod",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "qmlJSCaller",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qmljscaller.h",
+        "outputRevision": 68
     }
 ]
