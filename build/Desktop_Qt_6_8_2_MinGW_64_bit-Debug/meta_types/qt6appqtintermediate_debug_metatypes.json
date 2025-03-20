@@ -164,5 +164,81 @@
         ],
         "inputFile": "movie.h",
         "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "PropertyWrapper",
+                "lineNumber": 7,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "lastname",
+                        "notify": "lastnameChanged",
+                        "read": "lastname",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setLastname"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "firstname",
+                        "notify": "firstnameChanged",
+                        "read": "firstname",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setFirstname"
+                    }
+                ],
+                "qualifiedClassName": "PropertyWrapper",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "lastname",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "lastnameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "firstname",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "firstnameChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "propertywrapper.h",
+        "outputRevision": 68
     }
 ]

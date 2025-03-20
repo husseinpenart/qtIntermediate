@@ -724,6 +724,12 @@
 			"MU",
 			"EWIEGA46WW/moc_movie.cpp",
 			null
+		],
+		[
+			"E:/project/qtIntermediate/propertywrapper.h",
+			"MU",
+			"EWIEGA46WW/moc_propertywrapper.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -812,6 +818,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_connection_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_cppmapping_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_qmlcache_loader.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_signalSender_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtintermediate_qmltyperegistrations.cpp"
@@ -829,7 +836,8 @@
 		[ "E:/project/qtIntermediate/cppsignalsender.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppworker.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/main.cpp", "MU", null ],
-		[ "E:/project/qtIntermediate/movie.cpp", "MU", null ]
+		[ "E:/project/qtIntermediate/movie.cpp", "MU", null ],
+		[ "E:/project/qtIntermediate/propertywrapper.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
@@ -841,6 +849,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_connection_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_cppmapping_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_qmlcache_loader.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_signalSender_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtintermediate_qmltyperegistrations.cpp"

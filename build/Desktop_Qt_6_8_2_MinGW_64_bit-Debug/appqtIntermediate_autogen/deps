@@ -836,4 +836,6 @@ appqtIntermediate_autogen/timestamp: \
 	E:/project/qtIntermediate/main.cpp \
 	E:/project/qtIntermediate/movie.cpp \
 	E:/project/qtIntermediate/movie.h \
+	E:/project/qtIntermediate/propertywrapper.cpp \
+	E:/project/qtIntermediate/propertywrapper.h \
 	C:/Program\ Files/CMake/bin/cmake.exe
