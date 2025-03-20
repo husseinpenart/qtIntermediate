@@ -1,21 +1,26 @@
 import QtQuick
 import QtQuick.Controls
+import movies
 Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("js cpp qml integration in thi sides")
+    title: qsTr("instantiable module")
+    Movie{
+           id: movieId
+           title: "Titanic"
+           mainCharacter: "Leonardo D"
+       }
 
-    function qmlJSFunction(param){
-        console.log(" QML Talking, C++ called me with parameter : "+ param + "returning back something")
-        return "This is QML, over to you C++. Thanks for the Call."
-    }
+       Button {
+           text: "Invoke created object"
+           onClicked: {
+               movieId.title = "Fast and Furious"
+               movieId.mainCharacter = "Vin Diesel"
 
-    Button {
-        id : mButton
-        text : "Call QML function from C++"
-        onClicked: {
-            QmlJsCaller.cppMethod("QML Calling... ")
-        }
-    }
+               console.log("New " + movieId.title +" , " + movieId.mainCharacter);
+           }
+       }
+
+
 }

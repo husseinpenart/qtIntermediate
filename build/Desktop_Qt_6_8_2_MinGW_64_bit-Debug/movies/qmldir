@@ -1,0 +1,7 @@
+module movies
+linktarget moviesLibplugin
+optional plugin moviesLibplugin
+classname moviesPlugin
+typeinfo moviesLib.qmltypes
+prefer :/movies/
+

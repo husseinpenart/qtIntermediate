@@ -1,0 +1,341 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6e2dd6e29e43a5b468bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "movies",
+					"jsonFile" : "directory-movies-Debug-e3a96557d1d8c7794171.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "movies",
+					"targetIndexes" : 
+					[
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "qtIntermediate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-f25ec951ae73d7ea5284.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-ef95f452c623773a1ca5.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-df74b29d7698f8cf1399.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-6fe1a7eb20ca49474446.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-5f696be1478f816ef8a1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate-Debug-859fba520c9d6e497c83.json",
+					"name" : "appqtIntermediate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_autogen-Debug-1cfac481c455d0cfaeb6.json",
+					"name" : "appqtIntermediate_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_autogen_timestamp_deps-Debug-342997d8ca066f752610.json",
+					"name" : "appqtIntermediate_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_copy_qml-Debug-d9862b809bf7143976f7.json",
+					"name" : "appqtIntermediate_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_copy_res-Debug-e1aea47c03741e5c0ca2.json",
+					"name" : "appqtIntermediate_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_qmlimportscan-Debug-cf813dc0a226d21f07e8.json",
+					"name" : "appqtIntermediate_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_qmllint-Debug-cf50255e47d64af15fcc.json",
+					"name" : "appqtIntermediate_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_qmllint_json-Debug-331248de345a9c015a43.json",
+					"name" : "appqtIntermediate_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_qmllint_module-Debug-1af7be3059d1c02076a2.json",
+					"name" : "appqtIntermediate_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtIntermediate_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtIntermediate_qmltyperegistration-Debug-e3046655444e4c137a5b.json",
+					"name" : "appqtIntermediate_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appqtIntermediate_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appqtIntermediate_aotstats_target-Debug-f0e78ab7ad63e3c36ca8.json",
+					"name" : "module_appqtIntermediate_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib-Debug-3deaa9bd6fc609e04bfd.json",
+					"name" : "moviesLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib_autogen::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib_autogen-Debug-0da02a9553f62dd88c1d.json",
+					"name" : "moviesLib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib_autogen_timestamp_deps::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib_autogen_timestamp_deps-Debug-63229ab611d5ba2961f5.json",
+					"name" : "moviesLib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib_qmllint::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib_qmllint-Debug-4b31df4688d34d9b4649.json",
+					"name" : "moviesLib_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib_qmllint_json::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib_qmllint_json-Debug-14725eaf895ff4d0ef8e.json",
+					"name" : "moviesLib_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib_qmllint_module::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib_qmllint_module-Debug-b0fb323a30b2fdd35329.json",
+					"name" : "moviesLib_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib_qmltyperegistration::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib_qmltyperegistration-Debug-7b5ead894514b0cb2ef6.json",
+					"name" : "moviesLib_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLib_resources_1::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLib_resources_1-Debug-e72b60e33d99c9d82e3a.json",
+					"name" : "moviesLib_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLibplugin::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLibplugin-Debug-12ed544f2cca6816987d.json",
+					"name" : "moviesLibplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLibplugin_autogen::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLibplugin_autogen-Debug-2446b3acf705e5b70d6a.json",
+					"name" : "moviesLibplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLibplugin_autogen_timestamp_deps::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLibplugin_autogen_timestamp_deps-Debug-327dccdb03e4f5221bcd.json",
+					"name" : "moviesLibplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLibplugin_init::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLibplugin_init-Debug-521ed1afeb80a660c632.json",
+					"name" : "moviesLibplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLibplugin_init_autogen::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLibplugin_init_autogen-Debug-f0a663b949756ad24e94.json",
+					"name" : "moviesLibplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moviesLibplugin_init_autogen_timestamp_deps::@d321e5da68ea843b71e0",
+					"jsonFile" : "target-moviesLibplugin_init_autogen_timestamp_deps-Debug-41dd708aff1e4f449b65.json",
+					"name" : "moviesLibplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "E:/project/qtIntermediate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

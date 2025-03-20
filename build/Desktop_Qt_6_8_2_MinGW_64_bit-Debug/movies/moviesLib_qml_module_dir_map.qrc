@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/movies">E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/movies</file>
+
+  </qresource>
+</RCC>

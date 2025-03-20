@@ -1,0 +1,8 @@
+-I
+E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.2/mingw_64/qml
+--resource
+E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/movies/.qt/rcc/qmake_movies.qrc
+--module
+movies

@@ -63,6 +63,7 @@
 1155	1345	7641836431684750	.rcc/qmlcache/appqtIntermediate_signalSender_qml.cpp	400f372acc7c1cc6
 1408	5388	7641836432444760	CMakeFiles/appqtIntermediate.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_contextObject_qml.cpp.obj	26cbe81a7a377682
 1155	1345	7641836431684750	.rcc/qmlcache/appqtIntermediate_signalSender_qml.cpp.aotstats	400f372acc7c1cc6
+47	2390	7641859264029836	build.ninja	3eea0d8a3e695cbf
 1162	1373	7641836431954738	.rcc/qmlcache/appqtIntermediate_cppmapping_qml.cpp	572098c7c9026d80
 688	2294	7641693297873597	CMakeFiles/appqtIntermediate.dir/movie.cpp.obj	4d66640834539bf0
 1402	5249	7641836432384755	CMakeFiles/appqtIntermediate.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_signalSender_qml.cpp.obj	23b848b1eb4f3b5b
@@ -74,3 +75,4 @@
 1169	1373	7641836431954738	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_contextObject_qml.cpp	a41ea9522fe71e38
 1169	1373	7641836431954738	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_contextObject_qml.cpp.aotstats	a41ea9522fe71e38
 1382	5083	7641836432194760	CMakeFiles/appqtIntermediate.dir/qmljscaller.cpp.obj	c1710e8f45634939
+43	2406	7641859264029836	build.ninja	3eea0d8a3e695cbf

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/movies">
+    <file alias="qmldir">E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/movies/qmldir</file>
+  </qresource>
+</RCC>
+
