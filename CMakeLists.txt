@@ -22,6 +22,8 @@ qt_add_qml_module(appqtIntermediate
         QML_FILES callingcpp.qml
         QML_FILES connection.qml
         SOURCES cppsignalsender.h cppsignalsender.cpp
+        QML_FILES signalSender.qml
+        SOURCES movie.h movie.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

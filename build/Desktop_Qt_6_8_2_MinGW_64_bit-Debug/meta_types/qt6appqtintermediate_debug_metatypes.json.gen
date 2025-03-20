@@ -2,6 +2,58 @@
     {
         "classes": [
             {
+                "className": "cppSignalSender",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "cppSignalSender",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "parameter",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "callQml",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "cppTimer",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "cppslot",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cppsignalsender.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "cppWorker",
                 "lineNumber": 6,
                 "methods": [
@@ -47,6 +99,70 @@
             }
         ],
         "inputFile": "cppworker.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Movie",
+                "lineNumber": 6,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "mainCharacter",
+                        "notify": "mainCharacterChanged",
+                        "read": "mainCharacter",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setMainCharacter"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "title",
+                        "notify": "titleChanged",
+                        "read": "title",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setTitle"
+                    }
+                ],
+                "qualifiedClassName": "Movie",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "mainCharacterChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "titleChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "movie.h",
         "outputRevision": 68
     }
 ]

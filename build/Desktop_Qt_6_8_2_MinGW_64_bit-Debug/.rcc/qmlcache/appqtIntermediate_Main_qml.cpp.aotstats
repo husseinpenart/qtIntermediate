@@ -4,44 +4,68 @@
             {
                 "entries": [
                     {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 1302,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 16
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 611,
+                        "errorMessage": "Cannot access value for name Movie",
+                        "functionName": "text",
+                        "line": 14
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 103,
+                        "column": 39,
+                        "durationMicroseconds": 522,
                         "errorMessage": "",
-                        "functionName": "target",
-                        "line": 25
+                        "functionName": "horizontalCenter",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 518,
+                        "errorMessage": "Cannot access value for name Movie",
+                        "functionName": "text",
+                        "line": 24
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 356,
+                        "column": 39,
+                        "durationMicroseconds": 321,
                         "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 227,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 26
+                        "line": 43
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 93,
+                        "column": 39,
+                        "durationMicroseconds": 207,
                         "errorMessage": "",
-                        "functionName": "target",
-                        "line": 38
+                        "functionName": "horizontalCenter",
+                        "line": 50
                     },
                     {
-                        "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 152,
-                        "errorMessage": "",
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 39
+                        "line": 62
                     }
                 ],
                 "filepath": "E:/project/qtIntermediate/Main.qml"

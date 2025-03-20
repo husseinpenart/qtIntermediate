@@ -4,43 +4,67 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("connection")
-    Row{
-        Rectangle{
-            id:redRectId
-            color:'red'
-            width: 100
-            height: 100
-            MouseArea{
-                id:redRectMouseArea
-                anchors.fill: parent
-            }
-        }
-        Rectangle{
-            id:greenRectId
-            color:'green'
-            width: 100
-            height: 100
-            Connections{
-                target:redRectMouseArea
-                function onClicked(){
-                    console.log("clicked on  green rectangle")
-                }
-            }
+    title: qsTr("cpp qt property mapping")
+    Column {
+        spacing: 20
 
-        }
-        Rectangle{
-            id:blueRectId
-            color:'blue'
-            width: 100
-            height: 100
-            Connections{
-                target:redRectMouseArea
-                function onClicked(){
-                    console.log("clicked on  blue rectangle")
-                }
-            }
+        Text {
+            id : titleId
+            width: 500
+            text : Movie === null ? "" : Movie.title
+            //text : Movie.title
+            font.pointSize: 20
+            anchors.horizontalCenter: parent.horizontalCenter
         }
 
+
+        Text {
+            id : mainCharId
+            width: 500
+            text : Movie === null ? "" : Movie.mainCharacter
+            //text : Movie.mainCharacter
+            font.pointSize: 20
+            anchors.horizontalCenter: parent.horizontalCenter
+        }
+
+        Row {
+            anchors.horizontalCenter: parent.horizontalCenter
+
+            TextField{
+                id : titleTextFieldId
+                width: 300
+
+
+            }
+            Button {
+                width: 200
+                id : button1
+                text : "Change Title"
+                onClicked: {
+                    Movie.title = titleTextFieldId.text
+                }
+            }
+        }
+
+        Row {
+            anchors.horizontalCenter: parent.horizontalCenter
+
+            TextField{
+                id :mainCharTextFieldId
+                width: 300
+
+
+            }
+            Button {
+                width: 200
+                id : button2
+                text : "Change main character"
+                onClicked: {
+                    Movie.mainCharacter = mainCharTextFieldId.text
+                }
+            }
+        }
     }
+
+
 }

@@ -38,6 +38,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/QTimer \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -50,6 +51,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qatomic.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qatomic_cxx11.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qbasicatomic.h \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/qbasictimer.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qbindingstorage.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qbytearray.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -123,6 +125,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qtdeprecationdefinitions.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qtdeprecationmarkers.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qtenvironmentvariables.h \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/qtimer.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qtmetamacros.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qtnoop.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -826,7 +829,11 @@ appqtIntermediate_autogen/timestamp: \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/3.31.5/CMakeRCCompiler.cmake \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/3.31.5/CMakeSystem.cmake \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/moc_predefs.h \
+	E:/project/qtIntermediate/cppsignalsender.cpp \
+	E:/project/qtIntermediate/cppsignalsender.h \
 	E:/project/qtIntermediate/cppworker.cpp \
 	E:/project/qtIntermediate/cppworker.h \
 	E:/project/qtIntermediate/main.cpp \
+	E:/project/qtIntermediate/movie.cpp \
+	E:/project/qtIntermediate/movie.h \
 	C:/Program\ Files/CMake/bin/cmake.exe

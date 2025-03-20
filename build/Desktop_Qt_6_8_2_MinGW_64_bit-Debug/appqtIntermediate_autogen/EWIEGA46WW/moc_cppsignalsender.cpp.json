@@ -1,0 +1,52 @@
+{
+    "classes": [
+        {
+            "className": "cppSignalSender",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "cppSignalSender",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "parameter",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "callQml",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "cppTimer",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "cppslot",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "cppsignalsender.h",
+    "outputRevision": 68
+}

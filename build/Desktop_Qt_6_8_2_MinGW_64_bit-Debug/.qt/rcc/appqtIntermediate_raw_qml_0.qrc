@@ -4,6 +4,7 @@
     <file alias="OtherQmlCallAction.qml">E:/project/qtIntermediate/OtherQmlCallAction.qml</file>
     <file alias="callingcpp.qml">E:/project/qtIntermediate/callingcpp.qml</file>
     <file alias="connection.qml">E:/project/qtIntermediate/connection.qml</file>
+    <file alias="signalSender.qml">E:/project/qtIntermediate/signalSender.qml</file>
   </qresource>
 </RCC>
 
