@@ -5,67 +5,43 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
-                        "column": 26,
-                        "durationMicroseconds": 336,
+                        "column": 31,
+                        "durationMicroseconds": 1302,
                         "errorMessage": "",
-                        "functionName": "right",
-                        "line": 11
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
-                        "functionName": "onClicked",
-                        "line": 18
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
-                        "functionName": "onClicked",
-                        "line": 18
+                        "functionName": "fill",
+                        "line": 16
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 30,
-                        "durationMicroseconds": 155,
+                        "column": 24,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
-                        "functionName": "right",
+                        "functionName": "target",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 356,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
                         "line": 26
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
-                        "functionName": "onClicked",
-                        "line": 33
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 38
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 30,
-                        "durationMicroseconds": 146,
+                        "column": 17,
+                        "durationMicroseconds": 152,
                         "errorMessage": "",
-                        "functionName": "right",
-                        "line": 40
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 37,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on inputMethodHints.",
-                        "functionName": "inputMethodHints",
-                        "line": 60
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 68
+                        "line": 39
                     }
                 ],
                 "filepath": "E:/project/qtIntermediate/Main.qml"

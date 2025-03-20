@@ -2,6 +2,7 @@
   <qresource prefix="/qt/qml/qtIntermediate/">
     <file alias="Main.qml">E:/project/qtIntermediate/Main.qml</file>
     <file alias="OtherQmlCallAction.qml">E:/project/qtIntermediate/OtherQmlCallAction.qml</file>
+    <file alias="callingcpp.qml">E:/project/qtIntermediate/callingcpp.qml</file>
   </qresource>
 </RCC>
 

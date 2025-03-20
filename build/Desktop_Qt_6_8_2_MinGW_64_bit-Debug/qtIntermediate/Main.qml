@@ -4,79 +4,43 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("calling c++ to qml")
+    title: qsTr("connection")
+    Row{
+        Rectangle{
+            id:redRectId
+            color:'red'
+            width: 100
+            height: 100
+            MouseArea{
+                id:redRectMouseArea
+                anchors.fill: parent
+            }
+        }
+        Rectangle{
+            id:greenRectId
+            color:'green'
+            width: 100
+            height: 100
+            Connections{
+                target:redRectMouseArea
+                function onClicked(){
+                    console.log("clicked on  green rectangle")
+                }
+            }
 
-    Column{
-          spacing: 10
-          anchors.right: parent.right
-          Row{
-              Text{
-                  text: "regularMethod"
-              }
-              Button{
-                  text: "Call C++ method"
-                  onClicked: function(){
-                      BWorker.regularMethod()
-                  }
-
-              }
-          }
-          Row {
-              spacing: 10
-              anchors.right: parent.right
-              Text {
-                  text: qsTr("cppSlot()")
-              }
-
-              Button {
-                  text: "Call C++ slot"
-                  onClicked: {
-                      BWorker.cppSlot();
-                  }
-              }
-          }
-          Row {
-              spacing: 10
-              anchors.right: parent.right
-              Text {
-                  id: returnTextId
-                  text: qsTr("return")
-              }
-
-              Text {
-                  text: "regularMethodWithReturn("
-              }
-              TextField {
-                  id: nameFieldId
-                  placeholderText: qsTr("name")
-                  text: qsTr("Hussein")
-              }
-              Text {
-                  text: qsTr(",")
-              }
-              TextField {
-                  id: ageFieldId
-                  placeholderText: qsTr("age")
-                  inputMethodHints: Qt.ImhDigitsOnly
-                  text: qsTr("29")
-              }
-              Text {
-                  text: qsTr(")")
-              }
-              Button {
-                  text: qsTr("Call C++ method")
-                  onClicked: {
-                      if (nameFieldId.text !== null && ageFieldId.text !== null) {
-                          var response = BWorker.regularMethodWithReturn(nameFieldId.text, parseInt(ageFieldId.text));
-                          returnTextId.text = response;
-                      } else {
-                          console.log("One of the two required fields is empty");
-                      }
-                  }
-              }
-          }
-      }
-    OtherQmlCallAction{
+        }
+        Rectangle{
+            id:blueRectId
+            color:'blue'
+            width: 100
+            height: 100
+            Connections{
+                target:redRectMouseArea
+                function onClicked(){
+                    console.log("clicked on  blue rectangle")
+                }
+            }
+        }
 
     }
 }
