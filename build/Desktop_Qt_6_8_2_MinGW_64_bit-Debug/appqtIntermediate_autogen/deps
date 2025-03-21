@@ -333,8 +333,12 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/qyieldcpu.h \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/QColor \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/QFont \
+	C:/Qt/6.8.2/mingw_64/include/QtGui/QGuiApplication \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/qcolor.h \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/qfont.h \
+	C:/Qt/6.8.2/mingw_64/include/QtGui/qguiapplication.h \
+	C:/Qt/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+	C:/Qt/6.8.2/mingw_64/include/QtGui/qinputmethod.h \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/qrgb.h \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/qrgba64.h \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
@@ -343,6 +347,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
+	C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkReply \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkRequest \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/QSslConfiguration \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/QSslError \
@@ -400,6 +405,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/qtnetworkversion.h \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/qudpsocket.h \
+	C:/Qt/6.8.2/mingw_64/include/QtQml/QQmlApplicationEngine \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/QQmlEngine \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/QtQml \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/QtQmlDepends \
@@ -908,6 +914,22 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake \
 	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2AdditionalTargetInfo.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets-relwithdebinfo.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2VersionlessAliasTargets.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2AdditionalTargetInfo.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Config.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersion.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersionImpl.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Dependencies.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets-relwithdebinfo.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets.cmake \
+	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2VersionlessAliasTargets.cmake \
 	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake \
 	C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake \
@@ -1264,6 +1286,8 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
 	E:/project/qtIntermediate/CMakeLists.txt \
+	E:/project/qtIntermediate/appwrapper.cpp \
+	E:/project/qtIntermediate/appwrapper.h \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/qml_imports/appqtIntermediate_conf.cmake \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake \

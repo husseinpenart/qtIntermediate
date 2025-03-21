@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 468,
+                        "durationMicroseconds": 448,
                         "errorMessage": "Cannot access value for name Movie",
                         "functionName": "text",
                         "line": 10
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 374,
+                        "durationMicroseconds": 354,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 304,
+                        "durationMicroseconds": 323,
                         "errorMessage": "Cannot access value for name Movie",
                         "functionName": "text",
                         "line": 20
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 224,
+                        "durationMicroseconds": 212,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 23
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 208,
+                        "durationMicroseconds": 198,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 27
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 208,
+                        "durationMicroseconds": 200,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 46

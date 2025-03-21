@@ -7,10 +7,14 @@
 #include <propertywrapper.h>
 #include <qmljscaller.h>
 #include <cppclassvaraint.h>
+#include <QQuickStyle>
+#include <appwrapper.h>
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+    QQuickStyle::setStyle("Material");
     // create object in c++ workder
+    AppWrapper appwrapper;
     cppWorker cppWorker;
     cppSignalSender sender;
     CppClassVaraint varaint;
@@ -48,6 +52,9 @@ int main(int argc, char *argv[])
     }else{
         caller.setQmlRoostObject(rootObjects[0]);
         varaint.setQmlRootObject(engine.rootObjects().first());
+    }
+    if(!appwrapper.initialize(&app)){
+        return -1;
     }
     return app.exec();
 }

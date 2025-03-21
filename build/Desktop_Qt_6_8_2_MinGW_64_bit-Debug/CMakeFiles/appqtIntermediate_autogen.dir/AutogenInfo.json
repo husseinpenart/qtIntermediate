@@ -693,6 +693,24 @@
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake",
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake",
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake",
+		"C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersion.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersionImpl.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Config.cmake",
+		"C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Dependencies.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2AdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2VersionlessAliasTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2AdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2VersionlessAliasTargets.cmake",
 		"C:/Program Files/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
@@ -707,6 +725,12 @@
 	"DEP_FILE_RULE_NAME" : "appqtIntermediate_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"E:/project/qtIntermediate/appwrapper.h",
+			"MU",
+			"EWIEGA46WW/moc_appwrapper.cpp",
+			null
+		],
 		[
 			"E:/project/qtIntermediate/cppclass.h",
 			"MU",
@@ -778,6 +802,7 @@
 		"QT_QMLMODELS_LIB",
 		"QT_QMLWORKERSCRIPT_LIB",
 		"QT_QML_LIB",
+		"QT_QUICKCONTROLS2_LIB",
 		"QT_QUICK_LIB",
 		"UNICODE",
 		"WIN32",
@@ -812,6 +837,7 @@
 		"C:/Qt/6.8.2/mingw_64/include/QtQmlModels",
 		"C:/Qt/6.8.2/mingw_64/include/QtQmlWorkerScript",
 		"C:/Qt/6.8.2/mingw_64/include/QtOpenGL",
+		"C:/Qt/6.8.2/mingw_64/include/QtQuickControls2",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
@@ -868,6 +894,7 @@
 	"SETTINGS_FILE" : "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/appqtIntermediate_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "E:/project/qtIntermediate/appwrapper.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclass.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclassarray.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclasstime.cpp", "MU", null ],

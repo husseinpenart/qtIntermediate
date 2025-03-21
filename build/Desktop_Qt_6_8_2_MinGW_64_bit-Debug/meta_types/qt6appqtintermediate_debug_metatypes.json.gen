@@ -2,6 +2,52 @@
     {
         "classes": [
             {
+                "className": "AppWrapper",
+                "lineNumber": 12,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "fetchPosts",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "removeLast",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "AppWrapper",
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 0,
+                        "name": "dataReadyRead",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 1,
+                        "name": "dataReadFinished",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "appwrapper.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "classInfos": [
                     {
                         "name": "QML.Element",

@@ -1,74 +1,66 @@
 import QtQuick
 import QtQuick.Controls
 import qtIntermediate
-
+import QtQuick.Layouts
 Window {
+    id:root
     width: 640
     height: 480
     visible: true
-    title: qsTr("VariantList and VaraintMap")
+    title: qsTr("Rest Client ")
+    ColumnLayout{
+        anchors.fill: parent
+        spacing: 0
 
+        ListView{
+            id : mListView
+            model : myModel
+            delegate: Rectangle{
 
-    function arrayObjectFunc(array, object){
-        console.log("---Printing array---")
-        array.forEach(function(element){
-            console.log("Array item :" + element)
-        })
+                width : root.width
+                height: textId.implicitHeight+30
+                color: "beige"
+                border.color: "yellowgreen"
+                radius: 5
 
-        console.log("---Printing object---")
-        for ( var mKey in object){
-            console.log("Object[" +mKey+"] :"+ object[mKey])
+                Text {
+                    width : parent.width
+                    height: parent.height
+                    id : textId
+                    anchors.centerIn: parent
+                    text : modelData
+                    font.pointSize: 13
+                    wrapMode: Text.WordWrap
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
+                }
+            }
+            Layout.fillHeight: true
+            Layout.fillWidth: true
         }
 
-    }
 
-    Button{
-        id : button1Id
-        text : "Pass data to Cpp"
-        onClicked: {
-            var arr = ['Africa','Asia',"Europe","North America","South America","Oceania","Antarctica"]
-            var obj = {
-                firstName:"Hussein",
-                lastName:"Asadi",
-                location:"Iran"
+        Button {
+            id : button1Id
+            text : "Fetch"
+            Layout.fillWidth: true
+            onClicked: {
+                Wrapper.fetchPosts()
             }
 
-            CppClassVaraint.passFromQmlToCpp(arr,obj);
         }
+        Button {
+            id : button2Id
+            text : "RemoveLast"
+            Layout.fillWidth: true
+            onClicked: {
+                Wrapper.removeLast()
 
-    }
-    Button{
-        id : button2Id
-        anchors.top : button1Id.bottom
-        text : "GetVariantListFromCpp"
-        onClicked: {
-            var data = CppClassVaraint.getVariantListFromCpp() //returns array
-            data.forEach(function(element){
-                console.log("Array item :" + element)
-            })
-
-        }
-    }
-
-    Button{
-        id : button3Id
-        anchors.top : button2Id.bottom
-        text : "GetVariantMapFromCpp"
-        onClicked: {
-            var data = CppClassVaraint.getVariantMapFromCpp() //returns object
-            for ( var mKey in data){
-                console.log("Object[" +mKey+"] :"+ data[mKey])
             }
+
         }
     }
 
-    Button {
-        id : button4Id
-        text : "TriggerJSCall"
-        anchors.top: button3Id.bottom
-        onClicked: {
-            CppClassVaraint.triggerJSCall();
-        }
-    }
+
 }
 

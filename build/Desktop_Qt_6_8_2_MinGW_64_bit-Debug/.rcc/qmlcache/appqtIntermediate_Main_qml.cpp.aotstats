@@ -4,68 +4,108 @@
             {
                 "entries": [
                     {
-                        "codegenSuccessfull": false,
-                        "column": 5,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Functions without type annotations won't be compiled",
-                        "functionName": "arrayObjectFunc",
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 213,
+                        "errorMessage": "",
+                        "functionName": "fill",
                         "line": 12
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 20,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
-                        "functionName": "onClicked",
+                        "column": 21,
+                        "durationMicroseconds": 422,
+                        "errorMessage": "Cannot access value for name myModel",
+                        "functionName": "model",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 205,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "height",
                         "line": 28
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 20,
+                        "column": 28,
+                        "durationMicroseconds": 237,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "text",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 40,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 42,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 44
+                        "line": 47
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on top.",
-                        "functionName": "top",
-                        "line": 42
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 20,
+                        "column": 24,
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 57
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on top.",
-                        "functionName": "top",
-                        "line": 55
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 20,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
-                        "functionName": "onClicked",
-                        "line": 69
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on top.",
-                        "functionName": "top",
-                        "line": 68
+                        "line": 56
                     }
                 ],
                 "filepath": "E:/project/qtIntermediate/Main.qml"
