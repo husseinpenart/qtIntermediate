@@ -8,6 +8,7 @@
     <file alias="cppmapping.qml">E:/project/qtIntermediate/cppmapping.qml</file>
     <file alias="contextObject.qml">E:/project/qtIntermediate/contextObject.qml</file>
     <file alias="jsQmlCaller.qml">E:/project/qtIntermediate/jsQmlCaller.qml</file>
+    <file alias="DataTypes.qml">E:/project/qtIntermediate/DataTypes.qml</file>
   </qresource>
 </RCC>
 

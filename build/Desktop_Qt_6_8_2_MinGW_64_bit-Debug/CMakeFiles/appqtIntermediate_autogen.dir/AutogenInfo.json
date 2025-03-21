@@ -708,6 +708,12 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/project/qtIntermediate/cppclass.h",
+			"MU",
+			"EWIEGA46WW/moc_cppclass.cpp",
+			null
+		],
+		[
 			"E:/project/qtIntermediate/cppsignalsender.h",
 			"MU",
 			"EWIEGA46WW/moc_cppsignalsender.cpp",
@@ -820,6 +826,7 @@
 	[
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appqtIntermediate_raw_qml_0.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qtIntermediate.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_DataTypes_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Main_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",
@@ -841,6 +848,7 @@
 	"SETTINGS_FILE" : "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/appqtIntermediate_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "E:/project/qtIntermediate/cppclass.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppsignalsender.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppworker.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/main.cpp", "MU", null ],
@@ -854,6 +862,7 @@
 	[
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appqtIntermediate_raw_qml_0.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qtIntermediate.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_DataTypes_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Main_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",

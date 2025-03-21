@@ -2,6 +2,200 @@
     {
         "classes": [
             {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "CppClass",
+                "lineNumber": 15,
+                "object": true,
+                "qualifiedClassName": "CppClass",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "params",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "sendInt",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "param",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "sendDouble",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "boolparam",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "realparam",
+                                "type": "qreal"
+                            },
+                            {
+                                "name": "floatparam",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "sendBoolRealFloat",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "stringparam",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "urlparam",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "sendStringUrl",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "colorparam",
+                                "type": "QColor"
+                            },
+                            {
+                                "name": "fontparam",
+                                "type": "QFont"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "sendColorFont",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "dateparam",
+                                "type": "QDate"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "sendDate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "pointparam",
+                                "type": "QPoint"
+                            },
+                            {
+                                "name": "pointfparam",
+                                "type": "QPointF"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "sendPoint",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sizeparam",
+                                "type": "QSize"
+                            },
+                            {
+                                "name": "sizefparam",
+                                "type": "QSizeF"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "sendSize",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rectparam",
+                                "type": "QRect"
+                            },
+                            {
+                                "name": "rectfparam",
+                                "type": "QRectF"
+                            }
+                        ],
+                        "index": 8,
+                        "name": "sendRect",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "name": "cppSlot",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "point",
+                                "type": "QPoint"
+                            }
+                        ],
+                        "index": 10,
+                        "name": "receivePoint",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rect",
+                                "type": "QRect"
+                            }
+                        ],
+                        "index": 11,
+                        "name": "receivedRect",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cppclass.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "cppSignalSender",
                 "lineNumber": 6,
                 "object": true,

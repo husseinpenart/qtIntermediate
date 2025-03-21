@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 356,
+                        "durationMicroseconds": 548,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 6
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 194,
+                        "durationMicroseconds": 299,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 7
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 273,
+                        "durationMicroseconds": 485,
                         "errorMessage": "Cannot access value for name lastname",
                         "functionName": "text",
                         "line": 14
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 154,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 13
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 172,
+                        "durationMicroseconds": 329,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 23
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 165,
+                        "durationMicroseconds": 254,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 24
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 139,
+                        "durationMicroseconds": 234,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 21
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 248,
+                        "durationMicroseconds": 508,
                         "errorMessage": "Cannot access value for name firstname",
                         "functionName": "text",
                         "line": 31
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 192,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 30
