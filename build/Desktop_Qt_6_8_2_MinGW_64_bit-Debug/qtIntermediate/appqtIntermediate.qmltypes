@@ -67,6 +67,19 @@ Module {
         }
     }
     Component {
+        file: "cppclassarray.h"
+        name: "CppClassArray"
+        accessSemantics: "reference"
+        prototype: "QObject"
+        exports: ["qtIntermediate/CppClassArray 1.0"]
+        exportMetaObjectRevisions: [256]
+        Method {
+            name: "qmlArrayToCpp"
+            Parameter { name: "vector"; type: "QString"; isList: true }
+        }
+        Method { name: "retrieveStrings"; type: "QString"; isList: true }
+    }
+    Component {
         file: "cppclasstime.h"
         name: "CppClassTime"
         accessSemantics: "reference"

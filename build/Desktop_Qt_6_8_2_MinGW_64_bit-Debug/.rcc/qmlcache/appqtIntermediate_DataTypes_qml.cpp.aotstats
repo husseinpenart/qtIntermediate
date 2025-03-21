@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 1526,
+                        "durationMicroseconds": 1005,
                         "errorMessage": "Cannot generate efficient code for TypeofValue",
                         "functionName": "onSendStringUrl",
                         "line": 30
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 170,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "onSendStringUrl",
                         "line": 30
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 22,
-                        "durationMicroseconds": 1601,
+                        "durationMicroseconds": 1214,
                         "errorMessage": "Cannot generate efficient code for TypeofValue",
                         "functionName": "onSendDate",
                         "line": 48
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 116,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "onSendDate",
                         "line": 48
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 50,
                         "errorMessage": "cannot convert from QPoint to QString",
                         "functionName": "onSendPoint",
                         "line": 57
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "onSendPoint",
                         "line": 57
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 22,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 59,
                         "errorMessage": "cannot convert from QSize to QString",
                         "functionName": "onSendSize",
                         "line": 66
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
                         "functionName": "onSendSize",
                         "line": 66
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 22,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 43,
                         "errorMessage": "cannot convert from QRect to QString",
                         "functionName": "onSendRect",
                         "line": 74
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "onSendRect",
                         "line": 74

@@ -202,6 +202,50 @@
                         "value": "auto"
                     }
                 ],
+                "className": "CppClassArray",
+                "lineNumber": 7,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "vector",
+                                "type": "QList<QString>"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "qmlArrayToCpp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "retrieveStrings",
+                        "returnType": "QList<QString>"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "CppClassArray",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cppclassarray.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
                 "className": "CppClassTime",
                 "lineNumber": 8,
                 "object": true,

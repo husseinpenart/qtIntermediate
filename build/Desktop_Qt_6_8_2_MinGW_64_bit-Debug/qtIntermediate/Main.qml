@@ -6,40 +6,33 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("basic dataType in qml")
-    property string mValue: "Clicked %1 times, double is %2"
-    property int clickCount: 0
-    CppClassTime{
-        id:cppclassid
-        onSendDateTime:  (datetimeparam) =>
-                         {
-                             console.log("Received datetime :"+ datetimeparam);
-                             //Extract info
-                             console.log("Year :" + datetimeparam.getFullYear())
-                             console.log("...",datetimeparam.toGMTString())
-                         }
+    title: qsTr("Data Array to js")
 
-        onSendTime: (timeparam)=>{
-                        console.log("Received time :"+ timeparam);
 
-                    }
+    CppClassArray{
+        id: cppClassId
     }
     Button{
-        id: buttonId
-        text: "Click me"
-
+        id: button1Id
+        text: "Send to C++"
         onClicked: function(){
-            //Receive data from C++
-            // cppclassid.cppSlot()
+            var arr = ['Apple', 'Banana','Avocado','Pear','Orange'];
+            cppClassId.qmlArrayToCpp(arr)
 
-            // Send data to C++
-            var date = new Date()
-            cppclassid.timeSlot(date);
-            cppclassid.dateTimeSlot(date)
+        }
+    }
 
-            //String fromatting
-            clickCount++
-            buttonId.text = mValue.arg(clickCount).arg(clickCount*2)
+    Button{
+        id: button2Id
+        text: "Read form C++"
+        anchors.top: button1Id.bottom
+        onClicked: function(){
+            var arr = cppClassId.retrieveStrings()
+            print("The length of the array is: " + arr.length)
+
+            arr.forEach(function(element){
+                console.log(element)
+            })
         }
     }
 
