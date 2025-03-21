@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 185,
+                        "durationMicroseconds": 202,
                         "errorMessage": "Cannot access value for name CppSignalSender",
                         "functionName": "target",
                         "line": 6
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 252,
+                        "durationMicroseconds": 260,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 25

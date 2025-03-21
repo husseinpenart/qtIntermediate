@@ -63,6 +63,8 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QTimer \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QUrl \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QVariant \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/QVariantList \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/QVariantMap \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QVector \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QtCore \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QtCoreDepends \
@@ -1274,6 +1276,8 @@ appqtIntermediate_autogen/timestamp: \
 	E:/project/qtIntermediate/cppclassarray.h \
 	E:/project/qtIntermediate/cppclasstime.cpp \
 	E:/project/qtIntermediate/cppclasstime.h \
+	E:/project/qtIntermediate/cppclassvaraint.cpp \
+	E:/project/qtIntermediate/cppclassvaraint.h \
 	E:/project/qtIntermediate/cppsignalsender.cpp \
 	E:/project/qtIntermediate/cppsignalsender.h \
 	E:/project/qtIntermediate/cppworker.cpp \

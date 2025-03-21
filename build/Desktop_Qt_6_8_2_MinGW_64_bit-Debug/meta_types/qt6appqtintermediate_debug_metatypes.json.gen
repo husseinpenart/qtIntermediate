@@ -322,6 +322,62 @@
     {
         "classes": [
             {
+                "className": "CppClassVaraint",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "list",
+                                "type": "QVariantList"
+                            },
+                            {
+                                "name": "map",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "passFromQmlToCpp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "getVariantListFromCpp",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "getVariantMapFromCpp",
+                        "returnType": "QVariantMap"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "CppClassVaraint",
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "triggerJSCall",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cppclassvaraint.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "cppSignalSender",
                 "lineNumber": 6,
                 "object": true,

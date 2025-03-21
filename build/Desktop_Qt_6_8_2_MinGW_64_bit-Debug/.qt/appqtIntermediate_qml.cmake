@@ -22,6 +22,8 @@ set(src_and_dest_list
     "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qtIntermediate/DataTypes.qml"
     "E:/project/qtIntermediate/QtTime.qml"
     "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qtIntermediate/QtTime.qml"
+    "E:/project/qtIntermediate/QTArrayTojs.qml"
+    "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qtIntermediate/QTArrayTojs.qml"
 
 )
 set(timestamp_file "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/appqtIntermediate_qml.txt")

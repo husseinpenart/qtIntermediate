@@ -5,4 +5,5 @@ Main 1.0 Main.qml
 OtherQmlCallAction 1.0 OtherQmlCallAction.qml
 DataTypes 1.0 DataTypes.qml
 QtTime 1.0 QtTime.qml
+QTArrayTojs 1.0 QTArrayTojs.qml
 

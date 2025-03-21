@@ -6,13 +6,14 @@
 #include <movie.h>
 #include <propertywrapper.h>
 #include <qmljscaller.h>
+#include <cppclassvaraint.h>
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
     // create object in c++ workder
     cppWorker cppWorker;
     cppSignalSender sender;
-
+    CppClassVaraint varaint;
     Movie movie;
     movie.setTitle("ResidentEvil");
     movie.setMainCharacter("Leon s kennedy");
@@ -31,6 +32,7 @@ int main(int argc, char *argv[])
     // engine.rootContext()->setContextProperty("firstname" , QVariant::fromValue(firstname));
     engine.rootContext()->setContextObject(&wrapper);
     engine.rootContext()->setContextProperty("QmlJsCaller",&caller);
+    engine.rootContext()->setContextProperty("CppClassVaraint" , &varaint);
 
     QObject::connect(
         &engine,
@@ -45,6 +47,7 @@ int main(int argc, char *argv[])
         return -1;
     }else{
         caller.setQmlRoostObject(rootObjects[0]);
+        varaint.setQmlRootObject(engine.rootObjects().first());
     }
     return app.exec();
 }

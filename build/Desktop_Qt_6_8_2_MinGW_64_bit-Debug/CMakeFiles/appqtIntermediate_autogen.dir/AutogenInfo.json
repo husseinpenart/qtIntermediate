@@ -726,6 +726,12 @@
 			null
 		],
 		[
+			"E:/project/qtIntermediate/cppclassvaraint.h",
+			"MU",
+			"EWIEGA46WW/moc_cppclassvaraint.cpp",
+			null
+		],
+		[
 			"E:/project/qtIntermediate/cppsignalsender.h",
 			"MU",
 			"EWIEGA46WW/moc_cppsignalsender.cpp",
@@ -841,6 +847,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_DataTypes_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Main_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QTArrayTojs_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QtTime_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_connection_qml.cpp",
@@ -864,6 +871,7 @@
 		[ "E:/project/qtIntermediate/cppclass.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclassarray.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclasstime.cpp", "MU", null ],
+		[ "E:/project/qtIntermediate/cppclassvaraint.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppsignalsender.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppworker.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/main.cpp", "MU", null ],
@@ -880,6 +888,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_DataTypes_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Main_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QTArrayTojs_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QtTime_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_connection_qml.cpp",

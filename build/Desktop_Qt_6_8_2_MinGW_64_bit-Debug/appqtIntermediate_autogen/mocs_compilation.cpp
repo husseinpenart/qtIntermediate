@@ -2,6 +2,7 @@
 #include "EWIEGA46WW/moc_cppclass.cpp"
 #include "EWIEGA46WW/moc_cppclassarray.cpp"
 #include "EWIEGA46WW/moc_cppclasstime.cpp"
+#include "EWIEGA46WW/moc_cppclassvaraint.cpp"
 #include "EWIEGA46WW/moc_cppsignalsender.cpp"
 #include "EWIEGA46WW/moc_cppworker.cpp"
 #include "EWIEGA46WW/moc_movie.cpp"

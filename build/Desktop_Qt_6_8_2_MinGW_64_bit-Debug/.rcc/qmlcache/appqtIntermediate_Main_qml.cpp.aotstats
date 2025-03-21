@@ -5,11 +5,11 @@
                 "entries": [
                     {
                         "codegenSuccessfull": false,
-                        "column": 20,
+                        "column": 5,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
-                        "functionName": "onClicked",
-                        "line": 18
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "arrayObjectFunc",
+                        "line": 12
                     },
                     {
                         "codegenSuccessfull": false,
@@ -17,7 +17,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 18
+                        "line": 28
                     },
                     {
                         "codegenSuccessfull": false,
@@ -25,7 +25,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 29
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on top.",
+                        "functionName": "top",
+                        "line": 42
                     },
                     {
                         "codegenSuccessfull": false,
@@ -33,7 +41,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 29
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on top.",
+                        "functionName": "top",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 69
                     },
                     {
                         "codegenSuccessfull": false,
@@ -41,7 +65,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on top.",
                         "functionName": "top",
-                        "line": 28
+                        "line": 68
                     }
                 ],
                 "filepath": "E:/project/qtIntermediate/Main.qml"
