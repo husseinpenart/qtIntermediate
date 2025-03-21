@@ -1,0 +1,124 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 1526,
+                        "errorMessage": "Cannot generate efficient code for TypeofValue",
+                        "functionName": "onSendStringUrl",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 170,
+                        "errorMessage": "",
+                        "functionName": "onSendStringUrl",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve the argument type QFont.",
+                        "functionName": "onSendColorFont",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve the argument type QFont.",
+                        "functionName": "onSendColorFont",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 1601,
+                        "errorMessage": "Cannot generate efficient code for TypeofValue",
+                        "functionName": "onSendDate",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "onSendDate",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 76,
+                        "errorMessage": "cannot convert from QPoint to QString",
+                        "functionName": "onSendPoint",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "onSendPoint",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "cannot convert from QSize to QString",
+                        "functionName": "onSendSize",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "",
+                        "functionName": "onSendSize",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "cannot convert from QRect to QString",
+                        "functionName": "onSendRect",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "",
+                        "functionName": "onSendRect",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 101
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on top.",
+                        "functionName": "top",
+                        "line": 99
+                    }
+                ],
+                "filepath": "E:/project/qtIntermediate/DataTypes.qml"
+            }
+        ],
+        "moduleId": "qtIntermediate(appqtIntermediate)"
+    }
+]

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 323,
+                        "durationMicroseconds": 331,
                         "errorMessage": "Cannot access value for name BWorker",
                         "functionName": "onCompleted",
                         "line": 4
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 173,
+                        "durationMicroseconds": 162,
                         "errorMessage": "",
                         "functionName": "onCompleted",
                         "line": 4

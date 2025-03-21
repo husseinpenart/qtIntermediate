@@ -714,6 +714,12 @@
 			null
 		],
 		[
+			"E:/project/qtIntermediate/cppclasstime.h",
+			"MU",
+			"EWIEGA46WW/moc_cppclasstime.cpp",
+			null
+		],
+		[
 			"E:/project/qtIntermediate/cppsignalsender.h",
 			"MU",
 			"EWIEGA46WW/moc_cppsignalsender.cpp",
@@ -849,6 +855,7 @@
 	"SOURCES" : 
 	[
 		[ "E:/project/qtIntermediate/cppclass.cpp", "MU", null ],
+		[ "E:/project/qtIntermediate/cppclasstime.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppsignalsender.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppworker.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/main.cpp", "MU", null ],

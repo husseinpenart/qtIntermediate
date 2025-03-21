@@ -196,6 +196,88 @@
     {
         "classes": [
             {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "CppClassTime",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "CppClassTime",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "datetimeparam",
+                                "type": "QDateTime"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "sendDateTime",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "timeparam",
+                                "type": "QTime"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "sendTime",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "cppSlot",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "time",
+                                "type": "QTime"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "timeSlot",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "datetime",
+                                "type": "QDateTime"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "dateTimeSlot",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cppclasstime.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "cppSignalSender",
                 "lineNumber": 6,
                 "object": true,

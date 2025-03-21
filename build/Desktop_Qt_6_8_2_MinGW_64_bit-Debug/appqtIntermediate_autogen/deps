@@ -40,6 +40,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QByteArray \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QCryptographicHash \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QDate \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/QDateTime \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QDeadlineTimer \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QFlags \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QHash \
@@ -58,6 +59,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QSizeF \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QStringList \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/QTime \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QTimer \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QUrl \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QVariant \
@@ -1267,6 +1269,8 @@ appqtIntermediate_autogen/timestamp: \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/moc_predefs.h \
 	E:/project/qtIntermediate/cppclass.cpp \
 	E:/project/qtIntermediate/cppclass.h \
+	E:/project/qtIntermediate/cppclasstime.cpp \
+	E:/project/qtIntermediate/cppclasstime.h \
 	E:/project/qtIntermediate/cppsignalsender.cpp \
 	E:/project/qtIntermediate/cppsignalsender.h \
 	E:/project/qtIntermediate/cppworker.cpp \

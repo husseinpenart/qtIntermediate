@@ -66,4 +66,29 @@ Module {
             Parameter { name: "rect"; type: "QRect" }
         }
     }
+    Component {
+        file: "cppclasstime.h"
+        name: "CppClassTime"
+        accessSemantics: "reference"
+        prototype: "QObject"
+        exports: ["qtIntermediate/CppClassTime 1.0"]
+        exportMetaObjectRevisions: [256]
+        Signal {
+            name: "sendDateTime"
+            Parameter { name: "datetimeparam"; type: "QDateTime" }
+        }
+        Signal {
+            name: "sendTime"
+            Parameter { name: "timeparam"; type: "QTime" }
+        }
+        Method { name: "cppSlot" }
+        Method {
+            name: "timeSlot"
+            Parameter { name: "time"; type: "QTime" }
+        }
+        Method {
+            name: "dateTimeSlot"
+            Parameter { name: "datetime"; type: "QDateTime" }
+        }
+    }
 }
