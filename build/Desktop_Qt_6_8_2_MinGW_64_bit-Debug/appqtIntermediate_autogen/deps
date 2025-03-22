@@ -1308,6 +1308,8 @@ appqtIntermediate_autogen/timestamp: \
 	E:/project/qtIntermediate/cppsignalsender.h \
 	E:/project/qtIntermediate/cppworker.cpp \
 	E:/project/qtIntermediate/cppworker.h \
+	E:/project/qtIntermediate/errorlevel.cpp \
+	E:/project/qtIntermediate/errorlevel.h \
 	E:/project/qtIntermediate/main.cpp \
 	E:/project/qtIntermediate/movie.cpp \
 	E:/project/qtIntermediate/movie.h \

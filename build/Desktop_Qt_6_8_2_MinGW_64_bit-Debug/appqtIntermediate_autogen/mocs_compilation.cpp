@@ -7,6 +7,7 @@
 #include "EWIEGA46WW/moc_cppclassvaraint.cpp"
 #include "EWIEGA46WW/moc_cppsignalsender.cpp"
 #include "EWIEGA46WW/moc_cppworker.cpp"
+#include "EWIEGA46WW/moc_errorlevel.cpp"
 #include "EWIEGA46WW/moc_movie.cpp"
 #include "EWIEGA46WW/moc_propertywrapper.cpp"
 #include "EWIEGA46WW/moc_qmljscaller.cpp"

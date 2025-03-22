@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 904,
+                        "durationMicroseconds": 1552,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onSendDateTime",
                         "line": 10
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "onSendDateTime",
                         "line": 10
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 266,
+                        "durationMicroseconds": 423,
                         "errorMessage": "",
                         "functionName": "onSendTime",
                         "line": 18
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 273,
                         "errorMessage": "",
                         "functionName": "onSendTime",
                         "line": 18

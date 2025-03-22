@@ -1,0 +1,31 @@
+{
+    "classes": [
+        {
+            "className": "ErrorLevel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ErrorValue",
+                    "values": [
+                        "INFORMATION",
+                        "WARNING",
+                        "DEBUG",
+                        "MESSAGE"
+                    ]
+                }
+            ],
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "ErrorLevel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "errorlevel.h",
+    "outputRevision": 68
+}

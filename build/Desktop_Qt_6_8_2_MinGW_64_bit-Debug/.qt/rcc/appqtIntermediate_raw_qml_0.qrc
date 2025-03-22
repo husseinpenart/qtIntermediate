@@ -12,6 +12,7 @@
     <file alias="QtTime.qml">E:/project/qtIntermediate/QtTime.qml</file>
     <file alias="QTArrayTojs.qml">E:/project/qtIntermediate/QTArrayTojs.qml</file>
     <file alias="RestLook.qml">E:/project/qtIntermediate/RestLook.qml</file>
+    <file alias="Counter.qml">E:/project/qtIntermediate/Counter.qml</file>
   </qresource>
 </RCC>
 

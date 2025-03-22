@@ -26,6 +26,8 @@ set(src_and_dest_list
     "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qtIntermediate/QTArrayTojs.qml"
     "E:/project/qtIntermediate/RestLook.qml"
     "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qtIntermediate/RestLook.qml"
+    "E:/project/qtIntermediate/Counter.qml"
+    "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qtIntermediate/Counter.qml"
 
 )
 set(timestamp_file "E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/appqtIntermediate_qml.txt")

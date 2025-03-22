@@ -9,10 +9,12 @@
 #include <cppclassvaraint.h>
 #include <QQuickStyle>
 #include <appwrapper.h>
+#include <errorlevel.h>
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle("Material");
+    qmlRegisterUncreatableType<ErrorLevel>("guide.learnqt.errorlevel" , 1,0,"ErrorLevel","Can not create ErrorLEvel type in Qml / now Allowed.");
     // create object in c++ workder
     AppWrapper appwrapper;
     cppWorker cppWorker;

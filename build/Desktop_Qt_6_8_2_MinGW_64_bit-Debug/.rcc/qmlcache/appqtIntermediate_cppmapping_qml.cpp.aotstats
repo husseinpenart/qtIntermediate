@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 380,
+                        "durationMicroseconds": 471,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 327,
+                        "durationMicroseconds": 346,
                         "errorMessage": "Cannot access value for name Movie",
                         "functionName": "text",
                         "line": 20
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 210,
+                        "durationMicroseconds": 230,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 23
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 206,
+                        "durationMicroseconds": 224,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 27
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 204,
+                        "durationMicroseconds": 229,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 46
