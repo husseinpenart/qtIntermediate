@@ -732,6 +732,12 @@
 			null
 		],
 		[
+			"E:/project/qtIntermediate/counter.h",
+			"MU",
+			"EWIEGA46WW/moc_counter.cpp",
+			null
+		],
+		[
 			"E:/project/qtIntermediate/cppclass.h",
 			"MU",
 			"EWIEGA46WW/moc_cppclass.cpp",
@@ -875,6 +881,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QTArrayTojs_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QtTime_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_RestLook_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_connection_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_contextObject_qml.cpp",
@@ -895,6 +902,7 @@
 	"SOURCES" : 
 	[
 		[ "E:/project/qtIntermediate/appwrapper.cpp", "MU", null ],
+		[ "E:/project/qtIntermediate/counter.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclass.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclassarray.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppclasstime.cpp", "MU", null ],
@@ -917,6 +925,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QTArrayTojs_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QtTime_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_RestLook_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_callingcpp_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_connection_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_contextObject_qml.cpp",

@@ -7,6 +7,33 @@ import QtQuick.tooling 1.2
 
 Module {
     Component {
+        file: "counter.h"
+        name: "Counter"
+        accessSemantics: "reference"
+        prototype: "QObject"
+        exports: ["qtIntermediate/Counter 1.0"]
+        exportMetaObjectRevisions: [256]
+        Property {
+            name: "count"
+            type: "int"
+            read: "count"
+            write: "setCount"
+            notify: "countChanged"
+            index: 0
+        }
+        Property { name: "up"; type: "bool"; read: "up"; write: "setUp"; notify: "upChanged"; index: 1 }
+        Signal {
+            name: "countChanged"
+            Parameter { name: "count"; type: "int" }
+        }
+        Signal {
+            name: "upChanged"
+            Parameter { name: "up"; type: "bool" }
+        }
+        Method { name: "start" }
+        Method { name: "stop" }
+    }
+    Component {
         file: "cppclass.h"
         name: "CppClass"
         accessSemantics: "reference"

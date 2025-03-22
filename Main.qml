@@ -7,60 +7,61 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Rest Client ")
-    ColumnLayout{
-        anchors.fill: parent
-        spacing: 0
+    title: qsTr("Counter Custom Type")
 
-        ListView{
-            id : mListView
-            model : myModel
-            delegate: Rectangle{
-
-                width : root.width
-                height: textId.implicitHeight+30
-                color: "beige"
-                border.color: "yellowgreen"
-                radius: 5
-
-                Text {
-                    width : parent.width
-                    height: parent.height
-                    id : textId
-                    anchors.centerIn: parent
-                    text : modelData
-                    font.pointSize: 13
-                    wrapMode: Text.WordWrap
-                    verticalAlignment: Text.AlignVCenter
-                    horizontalAlignment: Text.AlignHCenter
-                }
-            }
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-        }
-
-
-        Button {
-            id : button1Id
-            text : "Fetch"
-            Layout.fillWidth: true
-            onClicked: {
-                Wrapper.fetchPosts()
-            }
-
-        }
-        Button {
-            id : button2Id
-            text : "RemoveLast"
-            Layout.fillWidth: true
-            onClicked: {
-                Wrapper.removeLast()
-
-            }
-
-        }
+    Counter{
+        id: counterId
     }
 
+    Column{
+        anchors.centerIn: parent
+        spacing: 10
 
+        Rectangle{
+            width: 200
+            height: 200
+            radius: 10
+            color: (counterId.count >= 0) ? "green": "red"
+
+            Text {
+                id: mText
+                text: counterId.count
+                anchors.centerIn: parent
+                font.pointSize: 40
+                color: "white"
+            }
+        }
+
+        Button{
+            width: 200
+            text : "Start"
+            onClicked: {
+                counterId.start()
+            }
+        }
+        Button{
+            width: 200
+            text : "Stop"
+            onClicked: {
+                counterId.stop()
+            }
+        }
+
+        Button{
+            width: 200
+            text : "Up"
+            onClicked: {
+                counterId.up = true;
+            }
+        }
+
+        Button{
+            width: 200
+            text : "Down"
+            onClicked: {
+                counterId.up = false;
+            }
+        }
+
+    }
 }
-

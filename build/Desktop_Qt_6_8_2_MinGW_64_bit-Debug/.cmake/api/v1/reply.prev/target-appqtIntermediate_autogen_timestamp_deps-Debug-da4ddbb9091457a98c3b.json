@@ -41,7 +41,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 3454,
+				"line" : 3448,
 				"parent" : 3
 			},
 			{
@@ -53,7 +53,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 3448,
+				"line" : 3454,
 				"parent" : 3
 			},
 			{
@@ -68,15 +68,15 @@
 	[
 		{
 			"backtrace" : 5,
-			"id" : "appqtIntermediate_copy_res::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 7,
 			"id" : "appqtIntermediate_copy_qml::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "appqtIntermediate_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "appqtIntermediate_copy_res::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 

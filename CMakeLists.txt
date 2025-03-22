@@ -39,6 +39,8 @@ qt_add_qml_module(appqtIntermediate
         SOURCES
         SOURCES cppclassvaraint.h cppclassvaraint.cpp
         SOURCES appwrapper.h appwrapper.cpp
+        SOURCES counter.h counter.cpp
+        QML_FILES RestLook.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

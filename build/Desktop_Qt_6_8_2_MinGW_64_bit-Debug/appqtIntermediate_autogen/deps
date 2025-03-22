@@ -1294,6 +1294,8 @@ appqtIntermediate_autogen/timestamp: \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/3.31.5/CMakeRCCompiler.cmake \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/3.31.5/CMakeSystem.cmake \
 	E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/moc_predefs.h \
+	E:/project/qtIntermediate/counter.cpp \
+	E:/project/qtIntermediate/counter.h \
 	E:/project/qtIntermediate/cppclass.cpp \
 	E:/project/qtIntermediate/cppclass.h \
 	E:/project/qtIntermediate/cppclassarray.cpp \

@@ -104,13 +104,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 60,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 55,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
@@ -432,6 +432,47 @@
 				"parent" : 64
 			},
 			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 23,
+				"line" : 1,
+				"parent" : 66
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 823,
+				"parent" : 67
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 745,
+				"parent" : 68
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 745,
+				"parent" : 69
+			},
+			{
+				"command" : 16,
+				"file" : 12,
+				"line" : 4324,
+				"parent" : 70
+			},
+			{
+				"command" : 13,
+				"file" : 12,
+				"line" : 4102,
+				"parent" : 71
+			},
+			{
 				"command" : 14,
 				"file" : 12,
 				"line" : 3454,
@@ -441,47 +482,6 @@
 				"command" : 13,
 				"file" : 12,
 				"line" : 2859,
-				"parent" : 66
-			},
-			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 20,
-				"file" : 23,
-				"line" : 1,
-				"parent" : 68
-			},
-			{
-				"command" : 19,
-				"file" : 0,
-				"line" : 823,
-				"parent" : 69
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 745,
-				"parent" : 70
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 745,
-				"parent" : 71
-			},
-			{
-				"command" : 16,
-				"file" : 12,
-				"line" : 4324,
-				"parent" : 72
-			},
-			{
-				"command" : 13,
-				"file" : 12,
-				"line" : 4102,
 				"parent" : 73
 			},
 			{
@@ -728,7 +728,7 @@
 				"command" : 30,
 				"file" : 0,
 				"line" : 817,
-				"parent" : 69
+				"parent" : 67
 			},
 			{
 				"command" : 23,
@@ -939,7 +939,7 @@
 				22,
 				24,
 				26,
-				27,
+				28,
 				29,
 				31,
 				33,
@@ -950,7 +950,8 @@
 				43,
 				45,
 				47,
-				48
+				49,
+				50
 			]
 		},
 		{
@@ -1153,19 +1154,19 @@
 			"id" : "appqtIntermediate_copy_qml::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 67,
-			"id" : "appqtIntermediate_copy_res::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 74,
-			"id" : "appqtIntermediate_qmlimportscan::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "appqtIntermediate_autogen::@6890427a1f51a3e7e1df"
 		},
 		{
+			"backtrace" : 72,
+			"id" : "appqtIntermediate_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "appqtIntermediate_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 74,
+			"id" : "appqtIntermediate_copy_res::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appqtIntermediate::@6890427a1f51a3e7e1df",
@@ -1321,9 +1322,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				52,
-				71,
-				72,
+				54,
 				73,
 				74,
 				75,
@@ -1331,7 +1330,9 @@
 				77,
 				78,
 				79,
-				80
+				80,
+				81,
+				82
 			]
 		},
 		{
@@ -1352,7 +1353,7 @@
 				22,
 				24,
 				26,
-				27,
+				28,
 				29,
 				31,
 				33,
@@ -1363,7 +1364,8 @@
 				43,
 				45,
 				47,
-				48
+				49,
+				50
 			]
 		},
 		{
@@ -1371,8 +1373,7 @@
 			"sourceIndexes" : 
 			[
 				2,
-				25,
-				28,
+				27,
 				30,
 				32,
 				34,
@@ -1382,7 +1383,8 @@
 				42,
 				44,
 				46,
-				50
+				48,
+				52
 			]
 		},
 		{
@@ -1398,23 +1400,22 @@
 				17,
 				19,
 				21,
-				23
+				23,
+				25
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				49,
-				51
+				51,
+				53
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				53,
-				54,
 				55,
 				56,
 				57,
@@ -1430,7 +1431,9 @@
 				67,
 				68,
 				69,
-				70
+				70,
+				71,
+				72
 			]
 		}
 	],
@@ -1577,6 +1580,17 @@
 			"backtrace" : 86,
 			"compileGroupIndex" : 0,
 			"path" : "appwrapper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"path" : "counter.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "counter.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{

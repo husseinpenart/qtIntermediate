@@ -5,91 +5,35 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 213,
+                        "column": 27,
+                        "durationMicroseconds": 1492,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 12
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 21,
-                        "durationMicroseconds": 422,
-                        "errorMessage": "Cannot access value for name myModel",
-                        "functionName": "model",
+                        "functionName": "centerIn",
                         "line": 17
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 25,
-                        "durationMicroseconds": 27,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "width",
-                        "line": 20
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 5919,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 24
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 205,
+                        "column": 23,
+                        "durationMicroseconds": 225,
                         "errorMessage": "",
-                        "functionName": "height",
-                        "line": 21
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 104,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 27
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 96,
-                        "errorMessage": "",
-                        "functionName": "height",
+                        "functionName": "text",
                         "line": 28
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 237,
-                        "errorMessage": "Cannot access value for name modelData",
-                        "functionName": "text",
-                        "line": 31
-                    },
-                    {
                         "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 104,
-                        "errorMessage": "",
-                        "functionName": "wrapMode",
-                        "line": 33
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 40,
-                        "durationMicroseconds": 83,
-                        "errorMessage": "",
-                        "functionName": "verticalAlignment",
-                        "line": 34
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 42,
-                        "durationMicroseconds": 90,
-                        "errorMessage": "",
-                        "functionName": "horizontalAlignment",
-                        "line": 35
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 39,
-                        "durationMicroseconds": 66,
+                        "column": 35,
+                        "durationMicroseconds": 151,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 30
+                        "line": 29
                     },
                     {
                         "codegenSuccessfull": false,
@@ -97,7 +41,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 47
+                        "line": 38
                     },
                     {
                         "codegenSuccessfull": false,
@@ -105,7 +49,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 56
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 61
                     }
                 ],
                 "filepath": "E:/project/qtIntermediate/Main.qml"
