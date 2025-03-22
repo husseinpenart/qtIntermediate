@@ -96,6 +96,13 @@ namespace _qt_qml_qtIntermediate_Counter_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_qtIntermediate_Enums_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -123,6 +130,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/qtIntermediate/QTArrayTojs.qml"), &QmlCacheGeneratedCode::_qt_qml_qtIntermediate_QTArrayTojs_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/qtIntermediate/RestLook.qml"), &QmlCacheGeneratedCode::_qt_qml_qtIntermediate_RestLook_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/qtIntermediate/Counter.qml"), &QmlCacheGeneratedCode::_qt_qml_qtIntermediate_Counter_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/qtIntermediate/Enums.qml"), &QmlCacheGeneratedCode::_qt_qml_qtIntermediate_Enums_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

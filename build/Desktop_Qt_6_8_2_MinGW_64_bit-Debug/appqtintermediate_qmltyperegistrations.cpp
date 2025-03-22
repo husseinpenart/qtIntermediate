@@ -19,6 +19,12 @@
 #if __has_include(<cppclasstime.h>)
 #  include <cppclasstime.h>
 #endif
+#if __has_include(<footballteam.h>)
+#  include <footballteam.h>
+#endif
+#if __has_include(<player.h>)
+#  include <player.h>
+#endif
 
 
 #if !defined(QT_STATIC)
@@ -33,6 +39,8 @@ Q_QMLTYPE_EXPORT void qml_register_types_qtIntermediate()
     qmlRegisterTypesAndRevisions<CppClass>("qtIntermediate", 1);
     qmlRegisterTypesAndRevisions<CppClassArray>("qtIntermediate", 1);
     qmlRegisterTypesAndRevisions<CppClassTime>("qtIntermediate", 1);
+    qmlRegisterTypesAndRevisions<FootBallTeam>("qtIntermediate", 1);
+    qmlRegisterTypesAndRevisions<Player>("qtIntermediate", 1);
     QT_WARNING_POP
     qmlRegisterModule("qtIntermediate", 1, 0);
 }

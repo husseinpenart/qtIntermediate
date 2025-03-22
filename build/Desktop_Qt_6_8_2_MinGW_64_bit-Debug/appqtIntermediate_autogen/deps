@@ -407,6 +407,7 @@ appqtIntermediate_autogen/timestamp: \
 	C:/Qt/6.8.2/mingw_64/include/QtNetwork/qudpsocket.h \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/QQmlApplicationEngine \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/QQmlEngine \
+	C:/Qt/6.8.2/mingw_64/include/QtQml/QQmlListProperty \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/QtQml \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/QtQmlDepends \
 	C:/Qt/6.8.2/mingw_64/include/QtQml/qjsengine.h \
@@ -1310,9 +1311,13 @@ appqtIntermediate_autogen/timestamp: \
 	E:/project/qtIntermediate/cppworker.h \
 	E:/project/qtIntermediate/errorlevel.cpp \
 	E:/project/qtIntermediate/errorlevel.h \
+	E:/project/qtIntermediate/footballteam.cpp \
+	E:/project/qtIntermediate/footballteam.h \
 	E:/project/qtIntermediate/main.cpp \
 	E:/project/qtIntermediate/movie.cpp \
 	E:/project/qtIntermediate/movie.h \
+	E:/project/qtIntermediate/player.cpp \
+	E:/project/qtIntermediate/player.h \
 	E:/project/qtIntermediate/propertywrapper.cpp \
 	E:/project/qtIntermediate/propertywrapper.h \
 	E:/project/qtIntermediate/qmljscaller.cpp \

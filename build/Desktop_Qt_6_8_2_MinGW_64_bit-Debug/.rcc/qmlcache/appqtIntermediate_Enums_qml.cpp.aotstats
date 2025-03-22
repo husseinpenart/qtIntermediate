@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 400,
+                        "errorMessage": "Cannot access value for name ErrorLevel",
+                        "functionName": "onCompleted",
+                        "line": 5
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 194,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 5
+                    }
+                ],
+                "filepath": "E:/project/qtIntermediate/Enums.qml"
+            }
+        ],
+        "moduleId": "qtIntermediate(appqtIntermediate)"
+    }
+]

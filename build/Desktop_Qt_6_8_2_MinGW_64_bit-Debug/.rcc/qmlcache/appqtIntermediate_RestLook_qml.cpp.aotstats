@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 332,
+                        "durationMicroseconds": 302,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 753,
+                        "durationMicroseconds": 568,
                         "errorMessage": "Cannot access value for name myModel",
                         "functionName": "model",
                         "line": 12
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 232,
+                        "durationMicroseconds": 132,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "width",
                         "line": 15
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 275,
+                        "durationMicroseconds": 231,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 16
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 22
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 23
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 252,
+                        "durationMicroseconds": 261,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
                         "line": 26
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 132,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "wrapMode",
                         "line": 28
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 126,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 29
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 171,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 30
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 25

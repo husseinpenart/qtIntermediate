@@ -780,9 +780,21 @@
 			null
 		],
 		[
+			"E:/project/qtIntermediate/footballteam.h",
+			"MU",
+			"EWIEGA46WW/moc_footballteam.cpp",
+			null
+		],
+		[
 			"E:/project/qtIntermediate/movie.h",
 			"MU",
 			"EWIEGA46WW/moc_movie.cpp",
+			null
+		],
+		[
+			"E:/project/qtIntermediate/player.h",
+			"MU",
+			"EWIEGA46WW/moc_player.cpp",
 			null
 		],
 		[
@@ -884,6 +896,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qtIntermediate.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Counter_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_DataTypes_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Enums_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Main_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QTArrayTojs_qml.cpp",
@@ -917,8 +930,10 @@
 		[ "E:/project/qtIntermediate/cppsignalsender.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/cppworker.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/errorlevel.cpp", "MU", null ],
+		[ "E:/project/qtIntermediate/footballteam.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/main.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/movie.cpp", "MU", null ],
+		[ "E:/project/qtIntermediate/player.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/propertywrapper.cpp", "MU", null ],
 		[ "E:/project/qtIntermediate/qmljscaller.cpp", "MU", null ]
 	],
@@ -930,6 +945,7 @@
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qtIntermediate.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Counter_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_DataTypes_qml.cpp",
+		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Enums_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_Main_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_OtherQmlCallAction_qml.cpp",
 		"E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqtIntermediate_QTArrayTojs_qml.cpp",

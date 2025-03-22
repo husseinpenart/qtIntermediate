@@ -4,20 +4,60 @@
             {
                 "entries": [
                     {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 288,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 53
+                    },
+                    {
                         "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 271,
-                        "errorMessage": "Cannot access value for name ErrorLevel",
-                        "functionName": "onCompleted",
-                        "line": 12
+                        "column": 24,
+                        "durationMicroseconds": 236,
+                        "errorMessage": "Cannot access value for name name",
+                        "functionName": "text",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 60
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 506,
                         "errorMessage": "",
                         "functionName": "onCompleted",
-                        "line": 12
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 67
                     }
                 ],
                 "filepath": "E:/project/qtIntermediate/Main.qml"

@@ -7,6 +7,8 @@ E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtInterme
 E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_cppsignalsender.cpp.json
 E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_cppworker.cpp.json
 E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_errorlevel.cpp.json
+E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_footballteam.cpp.json
 E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_movie.cpp.json
+E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_player.cpp.json
 E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_propertywrapper.cpp.json
 E:/project/qtIntermediate/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqtIntermediate_autogen/include/../EWIEGA46WW/moc_qmljscaller.cpp.json

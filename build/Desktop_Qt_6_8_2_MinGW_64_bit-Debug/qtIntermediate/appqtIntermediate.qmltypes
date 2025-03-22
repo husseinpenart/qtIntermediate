@@ -131,4 +131,103 @@ Module {
             Parameter { name: "datetime"; type: "QDateTime" }
         }
     }
+    Component {
+        file: "footballteam.h"
+        name: "FootBallTeam"
+        accessSemantics: "reference"
+        prototype: "QObject"
+        exports: ["qtIntermediate/FootBallTeam 1.0"]
+        exportMetaObjectRevisions: [256]
+        Property {
+            name: "title"
+            type: "QString"
+            read: "title"
+            write: "setTitle"
+            notify: "titleChanged"
+            index: 0
+        }
+        Property {
+            name: "coatch"
+            type: "QString"
+            read: "coatch"
+            write: "setCoatch"
+            notify: "coatchChanged"
+            index: 1
+        }
+        Property {
+            name: "captain"
+            type: "Player"
+            isPointer: true
+            read: "captain"
+            write: "setCaptain"
+            notify: "captainChanged"
+            index: 2
+        }
+        Property {
+            name: "players"
+            type: "Player"
+            isList: true
+            read: "players"
+            notify: "playersChanged"
+            index: 3
+            isReadonly: true
+        }
+        Signal {
+            name: "titleChanged"
+            Parameter { name: "title"; type: "QString" }
+        }
+        Signal {
+            name: "coatchChanged"
+            Parameter { name: "coatch"; type: "QString" }
+        }
+        Signal {
+            name: "captainChanged"
+            Parameter { name: "captain"; type: "Player"; isPointer: true }
+        }
+        Signal { name: "playersChanged" }
+    }
+    Component {
+        file: "player.h"
+        name: "Player"
+        accessSemantics: "reference"
+        prototype: "QObject"
+        exports: ["qtIntermediate/Player 1.0"]
+        exportMetaObjectRevisions: [256]
+        Property {
+            name: "name"
+            type: "QString"
+            read: "name"
+            write: "setName"
+            notify: "nameChanged"
+            index: 0
+        }
+        Property {
+            name: "playing"
+            type: "bool"
+            read: "playing"
+            write: "setPlaying"
+            notify: "playingChanged"
+            index: 1
+        }
+        Property {
+            name: "position"
+            type: "QString"
+            read: "position"
+            write: "setPosition"
+            notify: "positionChanged"
+            index: 2
+        }
+        Signal {
+            name: "nameChanged"
+            Parameter { name: "name"; type: "QString" }
+        }
+        Signal {
+            name: "playingChanged"
+            Parameter { name: "playing"; type: "bool" }
+        }
+        Signal {
+            name: "positionChanged"
+            Parameter { name: "position"; type: "QString" }
+        }
+    }
 }

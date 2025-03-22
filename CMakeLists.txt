@@ -43,6 +43,9 @@ qt_add_qml_module(appqtIntermediate
         QML_FILES RestLook.qml
         QML_FILES Counter.qml
         SOURCES errorlevel.h errorlevel.cpp
+        QML_FILES Enums.qml
+        SOURCES player.h player.cpp
+        SOURCES footballteam.h footballteam.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
